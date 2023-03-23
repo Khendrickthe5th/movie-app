@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    height: 200px;
+    flex: 0 0 100%;
+    min-width: 0;
+    background-color: red;
+  }
+  .embla__slide:hover{
+    cursor: grab;
+  }
+
+
+@font-face {
+font-family: "custom-1";
+src: url("./fonts/Inter.ttf") format('trueType');
+}
+
+@font-face{
+font-family: "custom-2";
+src: url("./fonts/EduNSWACTFoundation-Regular.ttf") format('trueType');
+}
+
+@font-face{
+    font-family: "Custom-3";
+    src: url("./fonts/MontserratAlternates-Regular.otf");
+    }
